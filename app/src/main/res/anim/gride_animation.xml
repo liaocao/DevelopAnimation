@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gridLayoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:rowDelay="75%"
+    android:columnDelay="60%"
+    android:directionPriority="row"
+    android:animation="@anim/slide_in_left"/>
+
+    <!-- - directionPriority：方向优先级。取值为row,collumn,none，意义分别为：行优先，列优先，和无优先级（同时进行）;具体意义，后面会细讲-->
+    <!-- - **direction：**gridview动画方向。-->
